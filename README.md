@@ -79,6 +79,19 @@ $ java EncodingHelper -i codepoint -o utf8 "U+00EA U+0074 U+0072 U+0065"
 
 The 'lang' output argument returns the unicode group which a character belongs to.
 
+$ java EncodingHelper Щ
+
+Character: Щ
+Code point: U+0429
+Name: CYRILLIC CAPITAL LETTER SHCHA
+UTF-8: \xD0\xA9
+Group: Cyrillic
+
+
+$ java EncodingHelper -o lang Щ
+
+Char 1: Щ, Group: Cyrillic
+
 If no arguments are given, then EncodingHelper prints out a helpful usage message.
 
 **Syntax**
