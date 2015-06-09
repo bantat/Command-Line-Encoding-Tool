@@ -77,6 +77,8 @@ $ java EncodingHelper -i codepoint -o utf8 "U+00EA U+0074 U+0072 U+0065"
 
 \xC3\xAA\x74\x72\x65
 
+The 'lang' output argument returns the unicode group which a character belongs to.
+
 If no arguments are given, then EncodingHelper prints out a helpful usage message.
 
 **Syntax**
