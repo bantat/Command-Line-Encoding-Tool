@@ -1,4 +1,4 @@
-**Encoding Helper: Command Line Tool for Unicode Encoding/Decoding**
+*Encoding Helper: Command Line Tool for Unicode Encoding/Decoding*
 
 Authors: Tore Banta and Da Shang
 
